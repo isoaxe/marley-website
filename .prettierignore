@@ -1,0 +1,10 @@
+# Build files
+/node_modules
+/build
+.next
+
+# Miscellaneous
+npm-debug.log*
+.DS_Store
+.env*.local
+.vercel
