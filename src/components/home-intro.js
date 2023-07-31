@@ -12,11 +12,11 @@ export default function HomeIntro() {
           className="z-0 object-cover"
           sizes="100vw"
         />
-        <div className="absolute text-center text-white flex flex-col items-center w-full mt-[30vh] sm:mt-[40vh] m-4">
-          <h1 className="2xl:text-6xl text-3xl lg:text-5xl md:text-4xl font-bold">
+        <div className="absolute m-4 mt-[30vh] flex w-full flex-col items-center text-center text-white sm:mt-[40vh]">
+          <h1 className="text-3xl font-bold md:text-4xl lg:text-5xl 2xl:text-6xl">
             Marley Hoban
           </h1>
-          <h2 className="2xl:text-4xl text-xl lg:text-3xl md:text-2xl font-light mt-10">
+          <h2 className="mt-10 text-xl font-light md:text-2xl lg:text-3xl 2xl:text-4xl">
             Mechanical and Manufacturing Engineer
           </h2>
         </div>
