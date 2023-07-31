@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { FaArrowCircleDown } from 'react-icons/fa';
 import cover from 'public/home/green-waves-cover.jpg';
 
 export default function HomeIntro() {
@@ -19,6 +20,10 @@ export default function HomeIntro() {
           <h3 className="my-5 text-xl font-light sm:my-10 md:text-2xl lg:text-3xl 2xl:text-4xl">
             Mechanical and Manufacturing Engineer
           </h3>
+          <FaArrowCircleDown
+            size={50}
+            className="transition duration-500 hover:cursor-pointer hover:fill-teal-500"
+          />
         </div>
       </div>
     </section>
