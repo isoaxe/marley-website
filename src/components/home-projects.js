@@ -1,3 +1,6 @@
+import HomeTile from './home-tile';
+import photo from 'public/home/geo-pattern-bg.jpg';
+
 export default function HomeProjects() {
   return (
     <section className="relative h-screen w-full bg-[#123233]">
@@ -7,6 +10,11 @@ export default function HomeProjects() {
       >
         Projects
       </h2>
+      <div className="mt-10 flex max-w-7xl md:mt-16">
+        <HomeTile photo={photo} />
+        <HomeTile photo={photo} />
+        <HomeTile photo={photo} />
+      </div>
     </section>
   );
 }
