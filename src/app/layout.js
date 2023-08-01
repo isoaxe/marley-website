@@ -8,7 +8,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: 'Marley Hoban',
+  title: 'Marley Hoban | Portfolio',
   description: 'A mechanical and manufacturing engineering portfolio.',
 };
 
