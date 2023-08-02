@@ -6,7 +6,7 @@ export default function HomeProjects() {
     <section className="relative h-fit w-full bg-home">
       <h2
         id="projects"
-        className="pt-5 text-center text-2xl font-semibold text-white underline xs:text-3xl md:pt-10 md:text-4xl lg:text-5xl 2xl:text-6xl"
+        className="bg-gradient-to-b from-sky-200 to-sky-600 bg-clip-text pb-1.5 pt-5 text-center text-2xl font-semibold text-transparent underline xs:text-3xl md:pt-10 md:text-4xl lg:text-5xl 2xl:text-6xl"
       >
         Projects
       </h2>
