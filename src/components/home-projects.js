@@ -11,9 +11,9 @@ export default function HomeProjects() {
         Projects
       </h2>
       <div className="m-auto mt-10 flex w-full max-w-[100rem] flex-row flex-wrap px-2 pb-20 md:mt-16 lg:px-6">
-        <HomeTile photo={photo} />
-        <HomeTile photo={photo} />
-        <HomeTile photo={photo} />
+        <HomeTile photo={photo} title="Pressure Sintering Machine" />
+        <HomeTile photo={photo} title="Final Year Project" />
+        <HomeTile photo={photo} title="Audio Visual Installation" />
       </div>
     </section>
   );
