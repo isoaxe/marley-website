@@ -11,7 +11,7 @@ export default function HomeTile({ photo }) {
           className="z-0 object-cover"
           sizes="(max-width: 639px) 100vw, (max-width: 1279px) 50vw, (max-width: 1599px) 33vw, 33rem"
         />
-        <div className="absolute z-10 h-full w-full bg-slate-800 opacity-0 hover:opacity-60"></div>
+        <div className="absolute z-10 h-full w-full bg-slate-800 opacity-0 transition duration-300 hover:opacity-60"></div>
       </div>
     </div>
   );
