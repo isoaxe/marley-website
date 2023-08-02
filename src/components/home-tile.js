@@ -11,8 +11,10 @@ export default function HomeTile({ photo, title }) {
           className="z-0 object-cover"
           sizes="(max-width: 639px) 100vw, (max-width: 1279px) 50vw, (max-width: 1599px) 33vw, 33rem"
         />
-        <div className="absolute z-10 h-full w-full bg-slate-800 opacity-0 transition duration-300 hover:opacity-60">
-          <h3 className="mt-[30%] text-center text-xl text-white">{title}</h3>
+        <div className="group absolute z-10 h-full w-full bg-slate-800 bg-opacity-0 transition duration-300 hover:bg-opacity-60">
+          <h3 className="mt-[30%] hidden text-center text-xl text-white group-hover:block">
+            {title}
+          </h3>
         </div>
       </div>
     </div>
