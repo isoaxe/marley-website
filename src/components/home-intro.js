@@ -17,7 +17,7 @@ export default function HomeIntro() {
           Marley Hoban
         </h1>
         <h3 className="my-5 text-xl font-light sm:my-10 md:text-2xl lg:text-3xl 2xl:text-4xl">
-          Mechanical and Manufacturing Engineer
+          Mechanical Engineering Portfolio
         </h3>
         <a href="#projects">
           <FaArrowCircleDown
