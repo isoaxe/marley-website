@@ -9,7 +9,7 @@ export default function HomeTile({ photo }) {
           alt="Cover photo for one of the projects."
           fill
           className="z-0 object-cover"
-          sizes="100vw"
+          sizes="(max-width: 639px) 100vw, (max-width: 1279px) 50vw, (max-width: 1599px) 33vw, 33rem"
         />
       </div>
     </div>
