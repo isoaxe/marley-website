@@ -13,7 +13,7 @@ export default function ProjectLayout({ children }) {
         className="absolute z-0 object-cover"
         sizes="100vw"
       />
-      <div className="relative flex flex-row justify-between">
+      <div className="relative m-6 flex flex-row justify-between">
         <Link href="/">
           <FaHome
             size={50}
