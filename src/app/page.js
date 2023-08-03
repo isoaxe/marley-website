@@ -15,7 +15,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <FaLinkedin
-            size={60}
+            size={50}
             className="fill-sky-200 transition duration-300 hover:cursor-pointer hover:fill-sky-500"
           />
         </Link>
