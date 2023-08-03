@@ -8,17 +8,18 @@ export default function Home() {
     <main>
       <HomeIntro />
       <HomeProjects />
-      <Link
-        href="https://www.linkedin.com/in/marley-hoban-55447a1b0"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex w-full justify-center bg-home pb-10"
-      >
-        <FaLinkedin
-          size={60}
-          className="fill-sky-200 transition duration-300 hover:cursor-pointer hover:fill-sky-500"
-        />
-      </Link>
+      <div className="flex w-full justify-center bg-home pb-10">
+        <Link
+          href="https://www.linkedin.com/in/marley-hoban-55447a1b0"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin
+            size={60}
+            className="fill-sky-200 transition duration-300 hover:cursor-pointer hover:fill-sky-500"
+          />
+        </Link>
+      </div>
     </main>
   );
 }
