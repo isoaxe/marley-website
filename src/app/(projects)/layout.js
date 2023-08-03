@@ -13,7 +13,7 @@ export default function ProjectLayout({ children }) {
         className="absolute z-0 object-cover"
         sizes="100vw"
       />
-      <div className="relative m-6 flex flex-row justify-between">
+      <div className="relative m-3 flex flex-row items-center justify-between xs:m-6">
         <Link href="/">
           <FaHome
             size={50}
@@ -21,7 +21,7 @@ export default function ProjectLayout({ children }) {
           />
         </Link>
         <div className="group flex flex-row items-center hover:cursor-pointer">
-          <h3 className="mr-5 text-3xl font-extralight text-sky-200 transition duration-300 group-hover:text-sky-500">
+          <h3 className="mr-2 text-right text-xl font-extralight text-sky-200 transition duration-300 group-hover:text-sky-500 xs:mr-5 xs:text-3xl">
             Next Project
           </h3>
           <FaArrowCircleRight
