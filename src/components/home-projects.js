@@ -12,7 +12,7 @@ export default function HomeProjects() {
       >
         Projects
       </h2>
-      <div className="m-auto mt-10 flex w-full max-w-[100rem] flex-row flex-wrap px-2 pb-20 md:mt-16 lg:px-6">
+      <div className="m-auto mt-10 flex w-full max-w-[100rem] flex-row flex-wrap justify-center px-2 pb-20 md:mt-16 lg:px-6">
         <HomeTile photo={psmCover} title="Pressure Sintering Machine" />
         <HomeTile photo={finalCover} title="Final Year Project" />
         <HomeTile photo={aviCover} title="Audio Visual Installation" />
