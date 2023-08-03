@@ -20,13 +20,13 @@ export default function ProjectLayout({ children }) {
             className="fill-sky-200 transition duration-300 hover:cursor-pointer hover:fill-sky-500"
           />
         </Link>
-        <div className="flex flex-row items-center">
-          <h3 className="mr-5 text-3xl font-extralight text-sky-200">
+        <div className="group flex flex-row items-center hover:cursor-pointer">
+          <h3 className="mr-5 text-3xl font-extralight text-sky-200 transition duration-300 group-hover:text-sky-500">
             Next Project
           </h3>
           <FaArrowCircleRight
             size={50}
-            className="fill-sky-200 transition duration-300 hover:cursor-pointer hover:fill-sky-500"
+            className="fill-sky-200 transition duration-300 group-hover:fill-sky-500"
           />
         </div>
       </div>
