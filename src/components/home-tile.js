@@ -8,7 +8,7 @@ export default function HomeTile({ photo, title }) {
           src={photo}
           alt="Cover photo for one of the projects."
           fill
-          className="z-0 object-cover"
+          className="z-0 bg-sky-300 object-cover"
           sizes="(max-width: 639px) 100vw, (max-width: 1279px) 50vw, (max-width: 1599px) 33vw, 33rem"
         />
         <div className="group absolute z-10 h-full w-full bg-slate-800 bg-opacity-0 transition duration-300 hover:bg-opacity-60">
