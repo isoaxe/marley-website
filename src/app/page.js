@@ -16,7 +16,7 @@ export default function Home() {
       >
         <FaLinkedin
           size={60}
-          className="fill-sky-400 transition duration-300 hover:cursor-pointer hover:fill-teal-600"
+          className="fill-sky-200 transition duration-300 hover:cursor-pointer hover:fill-sky-500"
         />
       </Link>
     </main>
