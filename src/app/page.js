@@ -10,6 +10,8 @@ export default function Home() {
       <HomeProjects />
       <Link
         href="https://www.linkedin.com/in/marley-hoban-55447a1b0"
+        target="_blank"
+        rel="noopener noreferrer"
         className="flex w-full justify-center bg-home pb-10"
       >
         <FaLinkedin
