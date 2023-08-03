@@ -1,8 +1,12 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
-export default function HomeTile({ photo, title }) {
+export default function HomeTile({ photo, title, link }) {
   return (
-    <div className="w-full p-2 hover:cursor-pointer sm:w-1/2 xl:w-1/3">
+    <Link
+      href={link}
+      className="w-full p-2 hover:cursor-pointer sm:w-1/2 xl:w-1/3"
+    >
       <div className="relative aspect-[4/3] overflow-hidden rounded-xl border-2 border-home hover:border-sky-700 hover:shadow-xl">
         <Image
           src={photo}
@@ -17,6 +21,6 @@ export default function HomeTile({ photo, title }) {
           </h3>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
