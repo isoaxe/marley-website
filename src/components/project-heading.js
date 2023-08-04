@@ -24,11 +24,14 @@ export default function ProjectHeading({ name }) {
             className="fill-sky-200 transition duration-300 hover:cursor-pointer hover:fill-sky-500"
           />
         </Link>
+        <h2 className="hidden text-3xl font-semibold text-white md:block lg:text-4xl">
+          {name}
+        </h2>
         <Link
           href={nextProject}
           className="group flex flex-row items-center hover:cursor-pointer"
         >
-          <h3 className="mr-2 text-right text-xl font-extralight text-sky-200 transition duration-300 group-hover:text-sky-500 xs:mr-5 xs:text-3xl">
+          <h3 className="mr-2 text-right text-xl font-extralight text-sky-200 transition duration-300 group-hover:text-sky-500 xs:mr-5 xs:text-2xl lg:text-3xl">
             Next Project
           </h3>
           <FaArrowCircleRight
