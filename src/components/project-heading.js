@@ -3,7 +3,11 @@ import { FaHome, FaArrowCircleRight } from 'react-icons/fa';
 import cover from 'public/projects/abstract-green.jpg';
 import Link from 'next/link';
 
-export default function ProjectHeading() {
+export default function ProjectHeading({ name }) {
+  let nextProject = 'pressure-sinter';
+  if (name === 'pressure-sinter') nextProject = 'final-year';
+  if (name === 'final-year') nextProject = 'audio-visual';
+
   return (
     <section>
       <Image
@@ -20,7 +24,10 @@ export default function ProjectHeading() {
             className="fill-sky-200 transition duration-300 hover:cursor-pointer hover:fill-sky-500"
           />
         </Link>
-        <div className="group flex flex-row items-center hover:cursor-pointer">
+        <Link
+          href={nextProject}
+          className="group flex flex-row items-center hover:cursor-pointer"
+        >
           <h3 className="mr-2 text-right text-xl font-extralight text-sky-200 transition duration-300 group-hover:text-sky-500 xs:mr-5 xs:text-3xl">
             Next Project
           </h3>
@@ -28,7 +35,7 @@ export default function ProjectHeading() {
             size={50}
             className="fill-sky-200 transition duration-300 group-hover:fill-sky-500"
           />
-        </div>
+        </Link>
       </div>
     </section>
   );
