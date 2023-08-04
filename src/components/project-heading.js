@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function ProjectHeading() {
   return (
-    <section className="text-white">
+    <section>
       <Image
         src={cover}
         alt="Abstract image showing angled parallel lines on a dark green background."
@@ -13,7 +13,7 @@ export default function ProjectHeading() {
         className="absolute z-0 object-cover"
         sizes="100vw"
       />
-      <div className="relative m-3 flex flex-row items-center justify-between xs:m-6">
+      <div className="relative flex flex-row items-center justify-between p-3 xs:p-6">
         <Link href="/">
           <FaHome
             size={50}
