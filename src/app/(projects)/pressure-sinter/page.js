@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import ProjectHeading from '@/components/project-heading';
+import mainImg from 'public/projects/psm/completed-machine.png';
 
 export default function PressureSinter() {
   return (
@@ -17,6 +19,15 @@ export default function PressureSinter() {
             Chip Integration Technology Center
           </a>
         </h3>
+        <div className="relative my-8 h-96 w-full">
+          <Image
+            src={mainImg}
+            alt="Photo of the pressure sintering machine."
+            fill
+            className="z-10 object-contain"
+            sizes="100vw"
+          />
+        </div>
       </section>
     </main>
   );
