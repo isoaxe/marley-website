@@ -5,8 +5,8 @@ import Link from 'next/link';
 
 export default function ProjectHeading({ name }) {
   let nextProject = 'pressure-sinter';
-  if (name === 'pressure-sinter') nextProject = 'final-year';
-  if (name === 'final-year') nextProject = 'audio-visual';
+  if (name === 'Pressure Sintering Machine') nextProject = 'final-year';
+  if (name === 'Final Year Project') nextProject = 'audio-visual';
 
   return (
     <section>
