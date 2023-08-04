@@ -9,7 +9,7 @@ const montserrat = Montserrat({
 
 export const metadata = {
   title: 'Marley Hoban | Portfolio',
-  description: 'A mechanical and manufacturing engineering portfolio.',
+  description: 'Mechanical engineering portfolio showcasing projects.',
 };
 
 export default function RootLayout({ children }) {
