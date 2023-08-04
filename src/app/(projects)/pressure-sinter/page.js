@@ -4,7 +4,7 @@ import mainImg from 'public/projects/psm/completed-machine.png';
 
 export default function PressureSinter() {
   return (
-    <main className="relative h-screen">
+    <main className="relative h-fit">
       <ProjectHeading name="Pressure Sintering Machine" />
       <section className="relative px-3 text-white xs:px-6">
         <h2 className="mb-5 text-center text-3xl font-semibold md:hidden">
@@ -19,7 +19,7 @@ export default function PressureSinter() {
             Chip Integration Technology Center
           </a>
         </h3>
-        <div className="relative my-8 h-96 w-full">
+        <div className="relative mt-8 h-72 w-full sm:h-96">
           <Image
             src={mainImg}
             alt="Photo of the pressure sintering machine."
