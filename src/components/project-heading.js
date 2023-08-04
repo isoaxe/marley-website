@@ -3,7 +3,7 @@ import { FaHome, FaArrowCircleRight } from 'react-icons/fa';
 import cover from 'public/projects/abstract-green.jpg';
 import Link from 'next/link';
 
-export default function ProjectLayout({ children }) {
+export default function ProjectHeading() {
   return (
     <section className="text-white">
       <Image
@@ -30,7 +30,6 @@ export default function ProjectLayout({ children }) {
           />
         </div>
       </div>
-      {children}
     </section>
   );
 }
