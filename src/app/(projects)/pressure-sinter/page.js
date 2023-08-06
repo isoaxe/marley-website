@@ -30,7 +30,7 @@ export default function PressureSinter() {
             sizes="100vw"
           />
         </div>
-        <div className="flex w-full max-w-[90rem] flex-row flex-wrap justify-between">
+        <div className="flex max-w-[90rem] flex-col flex-wrap items-center justify-between md:flex-row md:items-start">
           <ProjectText text={psmText.overview} />
           <ProjectText text={psmText.method} />
           <ProjectText text={psmText.result} />

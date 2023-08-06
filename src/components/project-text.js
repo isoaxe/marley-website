@@ -4,7 +4,7 @@ export default function ProjectText({ text }) {
   return (
     <div className="w-full max-w-lg p-2 md:w-1/2 lg:w-1/3">
       <div className="rounded border border-sky-500 bg-slate-600 p-2 text-lg">
-        <h3 className="text-2xl font-semibold">{heading}</h3>
+        <h3 className="mb-2 text-2xl font-semibold">{heading}</h3>
         <ul>
           {bullets?.map((txt, idx) => (
             <li key={idx} className="flex flex-row">
