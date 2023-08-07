@@ -1,8 +1,12 @@
 import Image from 'next/image';
 import ProjectHeading from '@/components/project-heading';
 import ProjectText from '@/components/project-text';
+import ProjectImage from '@/components/project-image';
 import { psmText } from '@/util/text-data';
 import mainImg from 'public/projects/psm/completed-machine.png';
+import sinter from 'public/projects/psm/chip-sintering.png';
+import positioning from 'public/projects/psm/chip-positioning-system.png';
+import gui from 'public/projects/psm/chip-alignment-gui.png';
 
 export default function PressureSinter() {
   return (
@@ -34,6 +38,14 @@ export default function PressureSinter() {
           <ProjectText text={psmText.overview} />
           <ProjectText text={psmText.method} />
           <ProjectText text={psmText.result} />
+        </div>
+        <div className="flex max-w-[90rem] flex-col flex-wrap items-center justify-between md:flex-row md:items-start">
+          <ProjectImage
+            image={sinter}
+            caption="Chip being pressure sintered onto lead frame"
+          />
+          <ProjectImage image={positioning} caption="Chip positioning system" />
+          <ProjectImage image={gui} caption="Chip alignment GUI" />
         </div>
       </section>
     </main>
