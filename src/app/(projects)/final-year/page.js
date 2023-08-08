@@ -1,10 +1,12 @@
 import Image from 'next/image';
 import ProjectHeading from '@/components/project-heading';
+import ProjectText from '@/components/project-text';
+import { finalText } from '@/util/text-data';
 import mainImg from 'public/projects/final/system-schematic.png';
 
 export default function FinalYear() {
   return (
-    <main className="relative h-screen">
+    <main className="relative h-fit">
       <ProjectHeading name="Final Year Project" />
       <section className="relative px-3 pb-6 text-white xs:px-6">
         <h2 className="mb-5 text-center text-3xl font-semibold md:hidden">
@@ -27,6 +29,11 @@ export default function FinalYear() {
             className="z-10 object-contain"
             sizes="100vw"
           />
+        </div>
+        <div className="flex max-w-[90rem] flex-col flex-wrap items-center justify-between md:flex-row md:items-start">
+          <ProjectText text={finalText.overview} />
+          <ProjectText text={finalText.method} />
+          <ProjectText text={finalText.result} />
         </div>
       </section>
     </main>
