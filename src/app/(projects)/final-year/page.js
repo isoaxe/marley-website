@@ -3,6 +3,7 @@ import ProjectHeading from '@/components/project-heading';
 import ProjectText from '@/components/project-text';
 import { finalText } from '@/util/text-data';
 import mainImg from 'public/projects/final/system-schematic.png';
+import facility from 'public/projects/final/facility-photo.png';
 
 export default function FinalYear() {
   return (
@@ -34,6 +35,15 @@ export default function FinalYear() {
           <ProjectText text={finalText.overview} />
           <ProjectText text={finalText.method} />
           <ProjectText text={finalText.result} />
+        </div>
+        <div className="relative my-8 h-72 w-full sm:h-96">
+          <Image
+            src={facility}
+            alt="Facility photo"
+            fill
+            className="z-10 object-contain"
+            sizes="100vw"
+          />
         </div>
       </section>
     </main>
