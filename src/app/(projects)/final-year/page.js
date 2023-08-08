@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import ProjectHeading from '@/components/project-heading';
+import mainImg from 'public/projects/final/system-schematic.png';
 
 export default function FinalYear() {
   return (
@@ -17,6 +19,15 @@ export default function FinalYear() {
             University of Limerick
           </a>
         </h3>
+        <div className="relative my-8 h-72 w-full sm:h-96">
+          <Image
+            src={mainImg}
+            alt="System schematic"
+            fill
+            className="z-10 object-contain"
+            sizes="100vw"
+          />
+        </div>
       </section>
     </main>
   );
