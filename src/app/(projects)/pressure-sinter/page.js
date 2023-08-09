@@ -28,7 +28,7 @@ export default function PressureSinter() {
         <div className="relative my-8 h-72 w-full sm:h-96">
           <Image
             src={mainImg}
-            alt="Photo of the pressure sintering machine."
+            alt="Photo of the pressure sintering machine"
             fill
             className="z-10 object-contain"
             sizes="100vw"
