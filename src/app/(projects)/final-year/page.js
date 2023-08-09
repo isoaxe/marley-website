@@ -36,12 +36,12 @@ export default function FinalYear() {
           <ProjectText text={finalText.method} />
           <ProjectText text={finalText.result} />
         </div>
-        <div className="relative my-8 h-72 w-full sm:h-96">
+        <div className="relative mx-auto my-8 flex aspect-video overflow-hidden rounded border border-sky-500 sm:h-96">
           <Image
             src={facility}
             alt="Facility photo"
             fill
-            className="z-10 object-contain"
+            className="z-10 object-cover"
             sizes="100vw"
           />
         </div>
