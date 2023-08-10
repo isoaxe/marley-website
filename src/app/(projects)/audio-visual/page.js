@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import ProjectHeading from '@/components/project-heading';
+import ProjectText from '@/components/project-text';
+import { aviText } from '@/util/text-data';
 import mainImg from 'public/projects/avi/external-photo.png';
 
 export default function AudioVisual() {
@@ -27,6 +29,10 @@ export default function AudioVisual() {
             className="z-10 object-contain"
             sizes="100vw"
           />
+        </div>
+        <div className="flex max-w-[90rem] flex-col flex-wrap items-center justify-around md:flex-row md:items-start">
+          <ProjectText text={aviText.overview} />
+          <ProjectText text={aviText.method} />
         </div>
       </section>
     </main>
