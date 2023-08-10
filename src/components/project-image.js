@@ -12,6 +12,7 @@ export default function ProjectImage({ image, caption }) {
           sizes="(max-width: 639px) 100vw, 25rem"
         />
       </div>
+      <h5 className="ml-2 text-sm sm:text-base">{caption}</h5>
     </div>
   );
 }
