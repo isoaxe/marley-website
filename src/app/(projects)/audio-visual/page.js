@@ -1,8 +1,15 @@
 import Image from 'next/image';
 import ProjectHeading from '@/components/project-heading';
 import ProjectText from '@/components/project-text';
+import ProjectImage from '@/components/project-image';
 import { aviText } from '@/util/text-data';
 import mainImg from 'public/projects/avi/external-photo.png';
+import internal from 'public/projects/avi/internal-structure.png';
+import external from 'public/projects/avi/external-structure.png';
+import sleeve from 'public/projects/avi/fabric-sleeve.png';
+import electrical from 'public/projects/avi/electrical-schematic.png';
+import under1 from 'public/projects/avi/underneath-view-1.png';
+import under2 from 'public/projects/avi/underneath-view-2.jpg';
 
 export default function AudioVisual() {
   return (
@@ -33,6 +40,23 @@ export default function AudioVisual() {
         <div className="flex max-w-[90rem] flex-col flex-wrap items-center justify-around md:flex-row md:items-start">
           <ProjectText text={aviText.overview} />
           <ProjectText text={aviText.method} />
+        </div>
+        <div className="flex max-w-[90rem] flex-col flex-wrap items-center justify-between md:flex-row md:items-start">
+          <ProjectImage image={internal} caption="Internal structure" />
+          <ProjectImage
+            image={external}
+            caption="External waterproof structure with speakers"
+          />
+          <ProjectImage image={sleeve} caption="Fabric sleeve" />
+          <ProjectImage image={electrical} caption="Electrical schematic" />
+          <ProjectImage
+            image={under1}
+            caption="View from underneath the sculpture"
+          />
+          <ProjectImage
+            image={under2}
+            caption="View from underneath the sculpture"
+          />
         </div>
       </section>
     </main>
