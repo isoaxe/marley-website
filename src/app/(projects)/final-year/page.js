@@ -28,7 +28,7 @@ export default function FinalYear() {
             alt="System schematic"
             fill
             className="z-10 object-contain"
-            sizes="100vw"
+            sizes="(max-width: 639px) 40rem, 53rem"
           />
         </div>
         <div className="flex max-w-[90rem] flex-col flex-wrap items-center justify-between md:flex-row md:items-start">
@@ -36,13 +36,13 @@ export default function FinalYear() {
           <ProjectText text={finalText.method} />
           <ProjectText text={finalText.result} />
         </div>
-        <div className="relative mx-auto my-8 flex aspect-video overflow-hidden rounded border border-sky-500 sm:h-96">
+        <div className="relative mx-auto my-8 flex aspect-video h-72 overflow-hidden rounded border border-sky-500 sm:h-96">
           <Image
             src={facility}
             alt="Facility photo"
             fill
             className="z-10 object-cover"
-            sizes="100vw"
+            sizes="(max-width: 639px) 32rem, 43rem"
           />
         </div>
       </section>
