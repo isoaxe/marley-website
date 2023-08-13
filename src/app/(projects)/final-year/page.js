@@ -22,14 +22,16 @@ export default function FinalYear() {
             University of Limerick
           </a>
         </h3>
-        <div className="relative my-8 h-72 w-full sm:h-96">
-          <Image
-            src={mainImg}
-            alt="System schematic"
-            fill
-            className="z-10 object-contain"
-            sizes="100vw"
-          />
+        <div className="flex items-center justify-center">
+          <div className="relative my-8 aspect-[2.2] h-72 sm:h-96">
+            <Image
+              src={mainImg}
+              alt="System schematic"
+              fill
+              className="z-10 object-contain"
+              sizes="100vw"
+            />
+          </div>
         </div>
         <div className="flex max-w-[90rem] flex-col flex-wrap items-center justify-between md:flex-row md:items-start">
           <ProjectText text={finalText.overview} />
