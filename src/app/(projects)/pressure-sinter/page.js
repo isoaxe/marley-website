@@ -25,7 +25,7 @@ export default function PressureSinter() {
             Chip Integration Technology Center
           </a>
         </h3>
-        <div className="relative my-8 h-72 w-full sm:h-96">
+        <div className="relative mx-auto my-8 aspect-square h-72 sm:h-96">
           <Image
             src={mainImg}
             alt="Photo of the pressure sintering machine"
