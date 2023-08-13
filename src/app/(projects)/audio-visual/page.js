@@ -28,18 +28,15 @@ export default function AudioVisual() {
             E.L.G. Arts Festival
           </a>
         </h3>
-        <div className="my-6 flex items-center justify-center">
-          <div className="relative aspect-[5/9] h-96 xs:h-[32rem]">
-            <Image
-              src={mainImg}
-              alt="External structure with fabric sleeve"
-              fill
-              className="z-10 object-contain"
-              sizes="(max-width: 429px) 13rem, 18rem"
-            />
-          </div>
+        <div className="relative mx-auto my-6 aspect-[5/9] h-96 xs:h-[32rem]">
+          <Image
+            src={mainImg}
+            alt="External structure with fabric sleeve"
+            fill
+            className="z-10 object-contain"
+            sizes="(max-width: 429px) 13rem, 18rem"
+          />
         </div>
-
         <div className="flex max-w-[90rem] flex-col flex-wrap items-center justify-around md:flex-row md:items-start">
           <ProjectText text={aviText.overview} />
           <ProjectText text={aviText.method} />
