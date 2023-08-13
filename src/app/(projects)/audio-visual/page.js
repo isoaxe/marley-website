@@ -35,7 +35,7 @@ export default function AudioVisual() {
               alt="External structure with fabric sleeve"
               fill
               className="z-10 object-contain"
-              sizes="100vw"
+              sizes="(max-width: 429px) 13rem, 18rem"
             />
           </div>
         </div>
