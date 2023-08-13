@@ -28,13 +28,13 @@ export default function AudioVisual() {
             E.L.G. Arts Festival
           </a>
         </h3>
-        <div className="relative h-96 w-full xs:h-[32rem]">
+        <div className="relative mx-auto my-6 aspect-[5/9] h-96 xs:h-[32rem]">
           <Image
             src={mainImg}
             alt="External structure with fabric sleeve"
             fill
             className="z-10 object-contain"
-            sizes="100vw"
+            sizes="(max-width: 429px) 13rem, 18rem"
           />
         </div>
         <div className="flex max-w-[90rem] flex-col flex-wrap items-center justify-around md:flex-row md:items-start">

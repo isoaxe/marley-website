@@ -25,13 +25,13 @@ export default function PressureSinter() {
             Chip Integration Technology Center
           </a>
         </h3>
-        <div className="relative my-8 h-72 w-full sm:h-96">
+        <div className="relative mx-auto my-8 aspect-square h-72 sm:h-96">
           <Image
             src={mainImg}
             alt="Photo of the pressure sintering machine"
             fill
             className="z-10 object-contain"
-            sizes="100vw"
+            sizes="(max-width: 639px) 18rem, 24rem"
           />
         </div>
         <div className="flex max-w-[90rem] flex-col flex-wrap items-center justify-between md:flex-row md:items-start">
