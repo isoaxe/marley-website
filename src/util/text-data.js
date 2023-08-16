@@ -2,7 +2,7 @@ export const psmText = {
   overview: {
     heading: 'Overview',
     bullets: [
-      'Develop a facility which uses a pneumatic press and heated tip to attach microchips to PCB boards.',
+      'Developed a facility which uses a pneumatic press and heated tip to attach microchips to PCB boards.',
       'The system also includes:',
     ],
     subBullets: [
@@ -37,7 +37,7 @@ export const finalText = {
   overview: {
     heading: 'Overview',
     bullets: [
-      'Develop a facility to measure the capillary performance of heat pipe wicks.',
+      'Developed a facility to measure the capillary performance of heat pipe wicks.',
       'A wick is automatically lowered until it contacts the liquid, the rate of absorption is measured using mass balances and an infra-red camera.',
     ],
   },
@@ -63,9 +63,9 @@ export const aviText = {
   overview: {
     heading: 'Overview',
     bullets: [
-      'Design and fabricate a large-scale audio-visual and interactive sculpture.',
+      'Designed and fabricated a large-scale audio-visual and interactive sculpture.',
       'From the outside the sculpture is a "wizard\'s hat" that the user stands underneath and looks up inside.',
-      'Inside the "hat" is a large kaleidoscope with programmable light show and surround-sound.',
+      'Inside the sculpture is a large kaleidoscope with programmable light show which provides an immesive experience for spectators underneath.',
     ],
   },
   method: {
@@ -76,6 +76,13 @@ export const aviText = {
       'Assembled the structure using a MIG welder.',
       'Soldered circuitry and programmed LED animations.',
       'Used angle-grinders, glass cutter, powers tools and etching chemicals.',
+    ],
+  },
+  result: {
+    heading: 'Result',
+    bullets: [
+      'The sculpture has been displayed at several large festivals.',
+      
     ],
   },
 };
