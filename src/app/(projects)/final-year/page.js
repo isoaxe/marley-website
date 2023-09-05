@@ -7,7 +7,7 @@ import facility from 'public/projects/final/facility-photo.png';
 
 export default function FinalYear() {
   return (
-    <main className="relative h-fit">
+    <main className="relative h-fit w-full bg-home">
       <ProjectHeading name="Final Year Project" />
       <section className="relative px-3 pb-6 text-white xs:px-6">
         <h2 className="mb-5 text-center text-3xl font-semibold md:hidden">
@@ -31,7 +31,7 @@ export default function FinalYear() {
             sizes="(max-width: 639px) 40rem, 53rem"
           />
         </div>
-        <div className="flex max-w-[90rem] flex-col flex-wrap items-center justify-between md:flex-row md:items-start">
+        <div className="flex max-w-[90rem] flex-col flex-wrap items-center justify-between md:flex-row md:items-start mx-auto">
           <ProjectText text={finalText.overview} />
           <ProjectText text={finalText.method} />
           <ProjectText text={finalText.result} />
@@ -42,7 +42,7 @@ export default function FinalYear() {
             alt="Facility photo"
             fill
             className="z-10 object-cover"
-            sizes="(max-width: 639px) 32rem, 43rem"
+            sizes="(max-width: 639px) 20rem, 43rem"
           />
         </div>
       </section>

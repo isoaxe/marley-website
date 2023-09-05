@@ -10,7 +10,7 @@ import gui from 'public/projects/psm/chip-alignment-gui.png';
 
 export default function PressureSinter() {
   return (
-    <main className="relative h-fit">
+    <main className="relative h-fit w-full bg-home">
       <ProjectHeading name="Pressure Sintering Machine" />
       <section className="relative px-3 pb-6 text-white xs:px-6">
         <h2 className="mb-5 text-center text-3xl font-semibold md:hidden">
@@ -34,12 +34,12 @@ export default function PressureSinter() {
             sizes="(max-width: 639px) 18rem, 24rem"
           />
         </div>
-        <div className="flex max-w-[90rem] flex-col flex-wrap items-center justify-between md:flex-row md:items-start">
+        <div className="flex max-w-[90rem] flex-col flex-wrap items-center justify-between md:flex-row md:items-start mx-auto">
           <ProjectText text={psmText.overview} />
           <ProjectText text={psmText.method} />
           <ProjectText text={psmText.result} />
         </div>
-        <div className="flex max-w-[90rem] flex-col flex-wrap items-center justify-between md:flex-row md:items-start">
+        <div className="flex max-w-[90rem] flex-col flex-wrap items-center justify-between md:flex-row md:items-start mx-auto">
           <ProjectImage
             image={sinter}
             caption="Chip being pressure sintered onto lead frame"
